@@ -1,0 +1,29 @@
+[
+	{
+		"title": "React Responsive Portfolio Website Tutorial Using ReactJs | React js Projects for Beginners | Deploy",
+		"url": "https://youtu.be/CKAn5dCK6RE",
+		"channel": "64bf477b96e4e6ea0b229c86",
+		"views": 12,
+		"likes": 2,
+		"description": "In this Reactjs project, we will make an awesome responsive personal portfolio website step-by-step. We learn React hooks, modern CSS, swiper js, framer motion, and many more. For contact, we will use the Email js library. To make this site more functional and practical, we will implement dark and light mode with the useContext hook.",
+		"category": "video"
+	},
+	{
+		"title": "The Junior Web Developer Portfolio That’ll Get You Hired",
+		"url": "https://youtu.be/bOTadUAiDBA",
+		"channel": "64bf4c0f406c9e4493562cc9",
+		"views": 250,
+		"likes": 10,
+		"description": "Thanks for watching! I made a similar video on my old channel a while back and I felt like it needed updates so I decided to film this new version. I think there's something to be said for having a couple of really solid projects showcased in a clean and professional way. But that's just my take 😁",
+		"category": "video"
+	},
+	{
+		"title": "React Responsive Portfolio Website Tutorial Using ReactJs | React js Projects for Beginners | Deploy",
+		"url": "https://youtu.be/CKAn5dCK6RE",
+		"channel": "64bf52886bb55cfc89acf82b",
+		"views": 0,
+		"likes": 0,
+		"description": "In this Reactjs project, we will make an awesome responsive personal portfolio website step-by-step. We learn React hooks, modern CSS, swiper js, framer motion, and many more. For contact, we will use the Email js library. To make this site more functional and practical, we will implement dark and light mode with the useContext hook.",
+		"category": "video"
+	}
+]
