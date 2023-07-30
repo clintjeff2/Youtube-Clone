@@ -9,6 +9,10 @@ const subscribeSchema = mongoose.Schema({
 				ref: 'Channel',
 				required: [true, 'A video must belong to a channel'],
 			},
+			subsDate: {
+				type: Date,
+				default: Date.now(),
+			},
 		},
 	],
 	user: {
