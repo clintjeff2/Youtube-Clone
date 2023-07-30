@@ -5,7 +5,7 @@ const vLikeSchema = mongoose.Schema({
 	user: {
 		type: mongoose.Schema.ObjectId,
 		ref: 'User',
-		required: [true, 'A like must be made by a user'],
+		// required: [true, 'A like must be made by a user'],
 	},
 	video: {
 		type: mongoose.Schema.ObjectId,

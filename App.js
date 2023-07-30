@@ -1,6 +1,9 @@
 const express = require('express');
 const userRouter = require('./routes/userRoutes');
 const morgan = require('morgan');
+const videoRouter = require('./routes/videoRoutes');
+const channelRouter = require('./routes/channelRoutes');
+const userVideoRouter = require('./routes/userVideoRouter');
 
 const app = express();
 
@@ -14,6 +17,9 @@ if (process.env.NODE_ENV === 'development') {
 
 //Redirecting routes
 app.use('/api/v1/user', userRouter);
+app.use('/api/v1/video', userVideoRouter);
+app.use('/api/v1/user/channel/:channelId/video', videoRouter);
+app.use('/api/v1/user/:userId/channel', channelRouter);
 
 //HANDLING NOT FOUND ROUTES
 app.all('*', (req, res, next) => {

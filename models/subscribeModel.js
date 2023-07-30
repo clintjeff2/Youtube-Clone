@@ -6,18 +6,14 @@ const subscribeSchema = mongoose.Schema({
 		{
 			id: {
 				type: mongoose.Schema.ObjectId,
-        ref: 'Channel',
+				ref: 'Channel',
 				required: [true, 'A video must belong to a channel'],
-			},
-			uploadDate: {
-				type: Date,
-				default: Date.now(),
 			},
 		},
 	],
 	user: {
 		type: mongoose.Schema.ObjectId,
-    ref: 'User',
+		ref: 'User',
 		required: [true, 'A subscription must belong to a user'],
 	},
 	subscribeDate: {

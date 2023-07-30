@@ -56,10 +56,11 @@ exports.login = async (req, res, next) => {
 			expiresIn: process.env.JWT_EXPIRES_IN,
 		});
 
-		const { firstName, lastName } = user;
+		const { firstName, lastName, id } = user;
 		res.status(200).json({
 			status: 'success',
 			data: {
+				id,
 				email: user.email,
 				firstName,
 				lastName,
