@@ -1,7 +1,7 @@
 const express = require('express');
-const videoController = require('./../controllers/videoController');
-const authController = require('./../controllers/authController');
-const vLikesController = require('./../controllers/vLikesController');
+const videoController = require('../controllers/videoController');
+const authController = require('../controllers/authController');
+const vLikesController = require('../controllers/vLikesController');
 
 const router = express.Router();
 

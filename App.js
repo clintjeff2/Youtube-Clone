@@ -3,7 +3,8 @@ const userRouter = require('./routes/userRoutes');
 const morgan = require('morgan');
 const videoRouter = require('./routes/videoRoutes');
 const channelRouter = require('./routes/channelRoutes');
-const userVideoRouter = require('./routes/userVideoRouter');
+const userVideoRouter = require('./routes/userVideoRoutes');
+const commentRouter = require('./routes/commentRoutes');
 
 const app = express();
 
@@ -20,6 +21,7 @@ app.use('/api/v1/user', userRouter);
 app.use('/api/v1/video', userVideoRouter);
 app.use('/api/v1/user/channel/:channelId/video', videoRouter);
 app.use('/api/v1/user/:userId/channel', channelRouter);
+app.use('/api/v1/comment', commentRouter);
 
 //HANDLING NOT FOUND ROUTES
 app.all('*', (req, res, next) => {
