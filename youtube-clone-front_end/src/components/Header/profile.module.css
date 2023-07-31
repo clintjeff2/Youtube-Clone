@@ -1,0 +1,19 @@
+.profile {
+	height: 6rem;
+	width: 6rem;
+	border-radius: 100%;
+	background-color: rgb(247, 243, 243);
+}
+
+.profileContainer {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}
+@media only screen and (max-width: 500px) {
+	.profile,
+	.profileContainer {
+		display: none;
+	}
+}

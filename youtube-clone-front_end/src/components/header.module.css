@@ -1,0 +1,32 @@
+.header {
+	background-color: white;
+	font-size: 1.6rem;
+	position: fixed;
+	width: 100%;
+	/* border: 1px solid red; */
+	/* border-bottom: 1px solid black; */
+	box-shadow: 1px 2px 3px black;
+}
+.mainNav {
+	display: flex;
+	align-items: center;
+	margin: 0 1rem;
+	gap: 3rem;
+	/* border: 1px solid blue; */
+}
+.responsive {
+	font-size: 3rem;
+	cursor: pointer;
+}
+@media only screen and (min-width: 600px) {
+	.responsive {
+		display: none;
+	}
+}
+@media only screen and (max-width: 600px) {
+	.header {
+		height: 7rem;
+		display: flex;
+		align-items: center;
+	}
+}

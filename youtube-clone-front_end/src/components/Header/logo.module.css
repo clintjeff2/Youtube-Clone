@@ -1,0 +1,10 @@
+.back {
+	background-color: white;
+	height: 8rem;
+	/* border: 1px solid green; */
+}
+@media only screen and (max-width: 600px) {
+	.back {
+		display: none;
+	}
+}
