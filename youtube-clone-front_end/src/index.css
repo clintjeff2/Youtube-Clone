@@ -1,8 +1,15 @@
-body{
-  margin: 0px;
-  padding: 0px;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap');
+
+body {
+	margin: 0px;
+	padding: 0px;
 }
 
-html{
-  font-size: 62.5%;
+html {
+	font-size: 62.5%;
+}
+
+body {
+	font-size: 1.6rem;
+	font-family: 'Manrope', sans-serif;
 }

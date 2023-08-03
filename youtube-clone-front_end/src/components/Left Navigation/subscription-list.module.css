@@ -1,0 +1,50 @@
+/* .subscription {
+	padding: 1.5rem;
+}
+.subscription li {
+	padding: -0.5rem -1.5rem;
+} */
+.subscription {
+	margin-top: 1.5rem;
+	margin-bottom: 1.5rem;
+	border-top: 1px solid #d6d5d5;
+	border-bottom: 1px solid #d6d5d5;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.subscription li {
+	border: none;
+	padding: 0.5rem 1.5rem;
+}
+.subscription li .link {
+	display: flex;
+	text-decoration: none;
+	align-items: center;
+	width: 100%;
+}
+.subscription li .link img {
+	height: 2.5rem;
+	width: 2.5rem;
+	border-radius: 100%;
+	margin-right: 2rem;
+}
+.subscription li .link span {
+	display: block;
+	color: grey;
+}
+.subscription li .link span:last-child {
+	margin-left: auto;
+	font-weight: bold;
+}
+.online {
+	color: #01cc01 !important;
+}
+.offline {
+	color: rgb(243, 35, 35) !important;
+}
+.subscription h3 {
+	padding-left: 1.5rem;
+}
+.channelName {
+	margin-right: auto;
+}
