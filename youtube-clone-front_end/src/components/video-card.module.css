@@ -1,0 +1,42 @@
+.videoCard {
+	/* border: 1px solid red; */
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 2rem;
+}
+
+.video {
+	/* border: 1px solid green; */
+	width: 370px;
+}
+.videoInfo {
+	font-weight: bolder;
+}
+.videoText {
+	/* border: 1px solid blue; */
+	display: flex;
+	gap: 1rem;
+	padding: 0.5rem;
+	margin-top: -0.2rem;
+}
+.channelPhoto {
+	height: 3rem;
+	width: 4.5rem;
+}
+
+.channelPhoto img {
+	height: 100%;
+	width: 100%;
+	border-radius: 100%;
+	background-color: #bbb9b9;
+}
+.videoTitle {
+	font-size: 1.5rem;
+	margin: 0px;
+}
+.channelName,
+.videoAction {
+	font-size: 1rem;
+	color: #584b4b;
+}

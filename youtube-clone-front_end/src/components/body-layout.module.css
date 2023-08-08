@@ -4,8 +4,7 @@
 	height: calc(100vh - 8rem);
 }
 .bodyContent {
-	border: 1px solid red;
-	width: 88%;
+	margin-left: 22.5rem;
 	height: 100%;
 }
 

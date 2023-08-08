@@ -1,14 +1,17 @@
 .navContainer {
-	width: 12%;
+	width: 20rem;
 }
 
 .navContainer {
 	padding: 0 1.2rem;
 	list-style: none;
 	display: flex;
-	height: 100%;
+	height: calc(100% - 8rem);
 	flex-direction: column;
 	overflow: auto;
+	position: fixed;
+	background-color: white;
+	z-index: 1;
 }
 .navContainer::-webkit-scrollbar {
 	width: 1rem;

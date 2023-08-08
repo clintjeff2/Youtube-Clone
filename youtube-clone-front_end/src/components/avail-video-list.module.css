@@ -1,0 +1,37 @@
+.availList {
+	margin-left: 15rem;
+}
+.video {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+.video:not(:first-child) {
+	margin-top: 2.5rem;
+}
+.videoInfo {
+	max-width: 1000px;
+}
+.title {
+	font-weight: bolder;
+	max-width: 60rem;
+}
+.channelPhoto,
+.videoInfo p span,
+.videoDesc {
+	font-size: 1rem;
+	font-weight: bold;
+}
+.channelPhoto {
+	display: flex;
+	gap: 1.5rem;
+	font-weight: bolder;
+	align-items: center;
+}
+
+.channelPhoto img {
+	height: 3rem;
+	width: 3rem;
+	border-radius: 100%;
+	background-color: #bbb9b9;
+}
