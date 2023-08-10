@@ -3,6 +3,7 @@ import styles from './watching.module.css';
 import YouTube from 'react-youtube';
 import { style, opts } from '../utils/TubeProps';
 import { AiOutlineLike, AiOutlineDislike } from 'react-icons/ai';
+import Comments from './Comments';
 
 const myOpts = {
 	height: '700',
@@ -15,7 +16,9 @@ const myOpts = {
 function Watching() {
 	return (
 		<div className={styles.watching}>
-			<YouTube videoId="gRovQdZ6IHw" styles={style} opts={myOpts} />
+			<div className={styles.youtube}>
+				<YouTube videoId="gRovQdZ6IHw" styles={style} opts={myOpts} />
+			</div>
 			<div className={styles.currentInfo}>
 				<h3>
 					How Sergio Busquets Tricked EVERYONE Into Thinking He Doesn't Do
@@ -52,6 +55,7 @@ function Watching() {
 					perferendis assumenda nobis, cum odit reprehenderit?
 				</p>
 			</div>
+			<Comments />
 		</div>
 	);
 }
