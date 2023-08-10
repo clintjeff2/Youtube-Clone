@@ -1,0 +1,33 @@
+/* style used for little adjustments, especially for responsiveness||| Referencing would be done where ever used. */
+
+.fullHeight {
+	height: 100%;
+}
+.smallText {
+	font-size: 1rem;
+}
+.margin {
+	margin-left: 0rem !important;
+}
+.dark {
+	padding: 1rem 1.2rem;
+	display: flex;
+	align-items: center;
+	border: none;
+	border-radius: 100px;
+	background-color: #1b1b1b;
+	color: #fff;
+}
+.light {
+	padding: 0.7rem 1.2rem;
+	display: flex;
+	align-items: center;
+	border: none;
+	border-radius: 100px;
+	background-color: #d8d7d7bb;
+}
+button {
+	cursor: pointer;
+	font-size: 1.3rem;
+	font-weight: bold;
+}

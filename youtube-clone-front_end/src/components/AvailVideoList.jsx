@@ -3,14 +3,18 @@ import styles from './avail-video-list.module.css';
 import YouTube from 'react-youtube';
 import { opts, style } from './../utils/TubeProps';
 
-function AvailVideoList() {
+function AvailVideoList(props) {
+	if (props.size) {
+		opts.height = `${props.size.height}`;
+		opts.width = `${props.size.width}`;
+	}
 	return (
-		<div className={styles.availList}>
+		<div className={`${styles.availList} ${props?.size?.margin}`}>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические (шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -31,9 +35,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические ((шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -54,9 +58,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические (шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -77,9 +81,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические (шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -100,9 +104,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические ((шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -123,9 +127,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические (шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -146,9 +150,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические ((шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -169,9 +173,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические (шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -192,9 +196,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические (шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -215,9 +219,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические (шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -238,9 +242,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические (шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -261,9 +265,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические (шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -284,9 +288,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические (шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -307,9 +311,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические (шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -330,9 +334,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические (шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -353,9 +357,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические (шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -376,9 +380,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические (шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -399,9 +403,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические (шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -422,9 +426,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические (шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -445,9 +449,9 @@ function AvailVideoList() {
 			</div>
 			<div className={styles.video}>
 				<YouTube opts={opts} style={style} videoId="0bv-MZ_FQdI" />
-				<div className={styles.videoInfo}>
+				<div className={`${styles.videoInfo} ${props?.size?.textSize}`}>
 					<p className={styles.title}>
-						🧡💛Произошли небольшие технические шоколадки) (by nodic269 PvP
+						🧡💛Произошли небольшие технические (шоколадки) (by nodic269 PvP
 						FunTime Spacetime)💙💚
 					</p>
 					<p>
@@ -466,7 +470,6 @@ function AvailVideoList() {
 					</p>
 				</div>
 			</div>
-
 		</div>
 	);
 }

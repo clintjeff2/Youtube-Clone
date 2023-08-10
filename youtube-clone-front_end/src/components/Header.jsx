@@ -6,10 +6,11 @@ import SearchBar from './Header/SearchBar';
 import Notification from './Header/Notification';
 import Profile from './Header/Profile';
 
-function Header() {
+function Header(props) {
 	return (
 		<div className={styles.header}>
 			<nav className={styles.mainNav}>
+				{props?.children}
 				<BsList className={styles.responsive} />
 				<Logo />
 				<SearchBar className={styles.searchBar} />

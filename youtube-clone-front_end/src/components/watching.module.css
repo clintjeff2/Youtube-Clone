@@ -1,0 +1,41 @@
+.watching {
+	border: 1px solid red;
+	width: 80%;
+}
+.videoInfo {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+	border: 1px solid red;
+	padding: 0 2rem 0 1rem;
+}
+.channel {
+	display: flex;
+	gap: 1.5rem;
+	align-items: center;
+}
+.channel img {
+	height: 3.6rem;
+	width: 3.6rem;
+	border-radius: 100%;
+}
+.channelInfo {
+	display: flex;
+	flex-direction: column;
+	font-weight: bolder;
+	font-size: 1.4rem;
+}
+.numSubs {
+	font-size: 1rem;
+	color: grey;
+}
+.subs {
+	margin-right: auto;
+}
+.description {
+	background-color: #e9e9e9;
+	border-radius: 2rem;
+	margin: 2rem;
+	line-height: 1.7;
+	padding: 1.5rem;
+}

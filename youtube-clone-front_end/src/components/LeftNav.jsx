@@ -6,10 +6,10 @@ import * as MdIcons from 'react-icons/md';
 import { NavLink, useLocation } from 'react-router-dom';
 import SubscriptionList from './Left Navigation/SubscriptionList';
 import './left-nav.css';
-function LeftNav() {
+function LeftNav(props) {
 	const urlInfo = useLocation();
 	return (
-		<div className={styles.navContainer}>
+		<div className={`${styles.navContainer} ${props?.fullHeight}`}>
 			<li className={styles.home}>
 				<NavLink to="/" className={styles.link}>
 					<span className={styles.logo}>

@@ -35,7 +35,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -60,7 +60,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -85,7 +85,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -110,7 +110,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -135,7 +135,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -160,7 +160,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -185,7 +185,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -210,7 +210,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -235,7 +235,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -260,7 +260,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -285,7 +285,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -310,7 +310,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -335,7 +335,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -360,7 +360,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -385,7 +385,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -410,7 +410,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -435,7 +435,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -460,7 +460,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -485,7 +485,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -510,7 +510,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -535,7 +535,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -560,7 +560,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -585,7 +585,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -610,7 +610,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -635,7 +635,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -660,7 +660,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -685,7 +685,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -710,7 +710,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -735,7 +735,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -760,7 +760,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
@@ -785,7 +785,7 @@ function VideoCard() {
 			<div className={styles.video}>
 				<YouTube videoId="0SmS7pVr2gE" opts={opts} style={style} />
 				<div className={styles.videoText}>
-					<div className={styles.videoPhoto}>
+					<div className={styles.channelPhoto}>
 						<img
 							src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 							alt=""
