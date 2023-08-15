@@ -7,7 +7,7 @@ function SearchBar() {
 	const [searchString, setSearchString] = useState('');
 	function handleVideoSearch(e) {
 		e.preventDefault();
-		navigate(`?search=${searchString}`);
+		navigate(`/?search=${searchString}`);
 	}
 	return (
 		<form action="" className={styles.searchBar} onSubmit={handleVideoSearch}>
@@ -25,3 +25,6 @@ function SearchBar() {
 }
 
 export default SearchBar;
+
+//CURRENTLY, SEARCH ONLY WORKS WHEN ON THE INDEX PAGE
+//NEEDS TO BE ARRANGED

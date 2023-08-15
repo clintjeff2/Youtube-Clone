@@ -5,11 +5,17 @@ import * as IoIcons from 'react-icons/io5';
 import * as MdIcons from 'react-icons/md';
 import { NavLink, useLocation } from 'react-router-dom';
 import SubscriptionList from './Left Navigation/SubscriptionList';
+import { RxCross2 } from 'react-icons/rx';
 import './left-nav.css';
 function LeftNav(props) {
 	const urlInfo = useLocation();
 	return (
 		<div className={`${styles.navContainer} ${props?.fullHeight}`}>
+			{props.fullHeight && (
+				<span className={styles.crossBar} onClick={props.onHandleNav}>
+					<RxCross2 />
+				</span>
+			)}
 			<li className={styles.home}>
 				<NavLink to="/" className={styles.link}>
 					<span className={styles.logo}>

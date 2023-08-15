@@ -20,6 +20,14 @@
 	background-color: rgb(218, 216, 216);
 	border-radius: 2rem;
 }
+.crossBar {
+	font-size: 2.5rem;
+	font-weight: bolder;
+	position: absolute;
+	right: 2rem;
+	top: 1rem;
+	cursor: pointer;
+}
 .home {
 	margin-top: 2rem;
 }

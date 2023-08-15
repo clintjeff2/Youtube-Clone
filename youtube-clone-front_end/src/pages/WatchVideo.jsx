@@ -6,6 +6,7 @@ import Header from '../components/Header';
 import { BsList } from 'react-icons/bs';
 import Watching from '../components/Watching';
 import AvailVideoList from '../components/AvailVideoList';
+import { useState } from 'react';
 
 const size = {
 	height: '130',
@@ -14,13 +15,18 @@ const size = {
 	margin: 'margin',
 };
 function WatchVideo() {
+	const [showNav, setShowNav] = useState(false);
+	const handleNav = () => {
+		setShowNav((prev) => !prev);
+		console.log('BRAVO GETTING VER');
+	};
 	return (
 		<div className={styles.watch}>
-			<Header>
-				<BsList className={styles.responsive} />
+			<Header onHandleNav={handleNav}>
+				<BsList className={styles.responsive} onClick={handleNav} />
 			</Header>
-			{/* <LeftNav fullHeight="fullHeight" />  **Shows only in responsive mode */}
-			{/* reason in utils/additionalStyles */}
+			{showNav && <LeftNav fullHeight="fullHeight" onHandleNav={handleNav} />}
+
 			<div className={styles.body}>
 				<Watching />
 				<div className={styles.recommended}>

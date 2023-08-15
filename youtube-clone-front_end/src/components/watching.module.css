@@ -1,12 +1,12 @@
 .watching {
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	width: 80%;
 }
 .videoInfo {
 	display: flex;
 	align-items: center;
 	gap: 2rem;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 	padding: 0 2rem 0 1rem;
 }
 .channel {
@@ -40,5 +40,5 @@
 	padding: 1.5rem;
 }
 .youtube {
-	border: 3px solid blue;
+	/* border: 3px solid blue; */
 }

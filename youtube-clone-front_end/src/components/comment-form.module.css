@@ -1,0 +1,44 @@
+.commentForm {
+	/* border: 1px solid blue; */
+}
+.userInfo {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	margin-bottom: 1rem;
+}
+.userInfo img {
+	height: 3.5rem;
+	width: 3.5rem;
+	border-radius: 100%;
+	background-color: #dbdbdb;
+}
+.userInfo div {
+	display: flex;
+	flex-direction: column;
+}
+.userInfo div span {
+	font-weight: bold;
+}
+
+.form {
+	/* border: 1px solid green; */
+}
+.form .commentInput {
+	width: 100%;
+	box-sizing: border-box;
+	font-size: 1.4rem;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid #414141;
+	padding: 0.5rem;
+}
+.form .commentInput:focus {
+	border-bottom: 2px solid black;
+}
+.form .formActions {
+	display: flex;
+	gap: 1.5rem;
+	justify-content: flex-end;
+	margin: 1rem 1rem 2rem 0;
+}

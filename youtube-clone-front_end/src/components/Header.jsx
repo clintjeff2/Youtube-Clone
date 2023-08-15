@@ -11,7 +11,6 @@ function Header(props) {
 		<div className={styles.header}>
 			<nav className={styles.mainNav}>
 				{props?.children}
-				<BsList className={styles.responsive} />
 				<Logo />
 				<SearchBar className={styles.searchBar} />
 				<Notification />

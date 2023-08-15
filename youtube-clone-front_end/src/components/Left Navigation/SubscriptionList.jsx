@@ -8,7 +8,7 @@ function SubscriptionList() {
 		<div className={styles.subscription}>
 			<h3>Subscriptions</h3>
 			<li>
-				<NavLink to="/Subcription/id" className={styles.link}>
+				<NavLink to="/subscription/21lid" className={styles.link}>
 					<img
 						src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 						alt=""
@@ -20,7 +20,7 @@ function SubscriptionList() {
 				</NavLink>
 			</li>
 			<li>
-				<NavLink to="/Subcription/id" className={styles.link}>
+				<NavLink to="/subscription/254lhh" className={styles.link}>
 					<img
 						src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 						alt=""
@@ -32,7 +32,7 @@ function SubscriptionList() {
 				</NavLink>
 			</li>{' '}
 			<li>
-				<NavLink to="/Subcription/id" className={styles.link}>
+				<NavLink to="/subscription/id" className={styles.link}>
 					<img
 						src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 						alt=""
@@ -44,7 +44,7 @@ function SubscriptionList() {
 				</NavLink>
 			</li>
 			<li>
-				<NavLink to="/Subcription/id" className={styles.link}>
+				<NavLink to="/subscription/id" className={styles.link}>
 					<img
 						src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 						alt=""
@@ -56,7 +56,7 @@ function SubscriptionList() {
 				</NavLink>
 			</li>
 			<li>
-				<NavLink to="/Subcription/id" className={styles.link}>
+				<NavLink to="/subscription/13kguy5" className={styles.link}>
 					<img
 						src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 						alt=""
@@ -68,7 +68,7 @@ function SubscriptionList() {
 				</NavLink>
 			</li>
 			<li>
-				<NavLink to="/Subcription/id" className={styles.link}>
+				<NavLink to="/subscription/id" className={styles.link}>
 					<img
 						src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 						alt=""
@@ -80,7 +80,7 @@ function SubscriptionList() {
 				</NavLink>
 			</li>
 			<li>
-				<NavLink to="/Subcription/id" className={styles.link}>
+				<NavLink to="/subscription/id" className={styles.link}>
 					<img
 						src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 						alt=""
@@ -92,7 +92,7 @@ function SubscriptionList() {
 				</NavLink>
 			</li>
 			<li>
-				<NavLink to="/Subcription/id" className={styles.link}>
+				<NavLink to="/subscription/id" className={styles.link}>
 					<img
 						src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 						alt=""
@@ -104,7 +104,7 @@ function SubscriptionList() {
 				</NavLink>
 			</li>
 			<li>
-				<NavLink to="/Subcription/id" className={styles.link}>
+				<NavLink to="/subscription/id" className={styles.link}>
 					<img
 						src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 						alt=""
@@ -116,7 +116,7 @@ function SubscriptionList() {
 				</NavLink>
 			</li>
 			<li>
-				<NavLink to="/Subcription/id" className={styles.link}>
+				<NavLink to="/subscription/id" className={styles.link}>
 					<img
 						src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 						alt=""
@@ -128,7 +128,7 @@ function SubscriptionList() {
 				</NavLink>
 			</li>
 			<li>
-				<NavLink to="/Subcription/id" className={styles.link}>
+				<NavLink to="/subscription/id" className={styles.link}>
 					<img
 						src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 						alt=""
@@ -140,7 +140,7 @@ function SubscriptionList() {
 				</NavLink>
 			</li>
 			<li>
-				<NavLink to="/Subcription/id" className={styles.link}>
+				<NavLink to="/subscription/id" className={styles.link}>
 					<img
 						src="https://yt3.googleusercontent.com/BlOoB7E3OX94E3WNMdbSuUjpdbREVxZWDTaPOaAC8tz_MfTsH4X_WK56ye5TsDOtHbSCwKvhZcM=s176-c-k-c0x00ffffff-no-rj"
 						alt=""

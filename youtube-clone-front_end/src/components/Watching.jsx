@@ -1,9 +1,9 @@
 import React from 'react';
 import styles from './watching.module.css';
 import YouTube from 'react-youtube';
-import { style, opts } from '../utils/TubeProps';
+import { style } from '../utils/TubeProps';
 import { AiOutlineLike, AiOutlineDislike } from 'react-icons/ai';
-import Comments from './Comments';
+import CommentSection from './CommentSection';
 
 const myOpts = {
 	height: '700',
@@ -55,7 +55,7 @@ function Watching() {
 					perferendis assumenda nobis, cum odit reprehenderit?
 				</p>
 			</div>
-			<Comments />
+			<CommentSection />
 		</div>
 	);
 }
