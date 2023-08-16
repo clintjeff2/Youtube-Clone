@@ -2,5 +2,6 @@
 	/* color: red; */
 	font-weight: bolder;
 	background-color: rgb(207, 207, 207);
-	border-radius: .5rem;
+	border-radius: 0.5rem;
+	color: #ca0303;
 }

@@ -2,45 +2,4 @@
 	/* border: 1px solid blue; */
 	margin-bottom: 5rem;
 }
-.channelCover {
-	background-color: #000050;
-}
-.channelCover img {
-	width: 100%;
-	height: 30rem;
-}
-/* https://scrapeops.io/img/sdk-icons/scrapy-freecodecamp-logos.png */
 
-.channelInfo {
-	/* border: 10px solid orange; */
-	margin: 4rem auto;
-	display: flex;
-	gap: 2rem;
-	align-items: center;
-	width: fit-content;
-}
-.channelInfo img {
-	height: 15rem;
-	width: 15rem;
-	border-radius: 100%;
-	background-color: #d4d3d3;
-}
-
-.content {
-	display: flex;
-	flex-direction: column;
-	gap: 0.7rem;
-}
-.content h2 {
-	margin: 0;
-	padding: 0;
-}
-.content span {
-	font-weight: bold;
-}
-.content span span {
-	margin-left: 1rem;
-}
-.content a {
-	text-decoration: none;
-}

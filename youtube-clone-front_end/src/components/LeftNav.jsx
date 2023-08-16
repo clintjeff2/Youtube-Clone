@@ -6,6 +6,7 @@ import * as MdIcons from 'react-icons/md';
 import { NavLink, useLocation } from 'react-router-dom';
 import SubscriptionList from './Left Navigation/SubscriptionList';
 import { RxCross2 } from 'react-icons/rx';
+import { PiTelevisionSimple, PiTelevisionSimpleFill } from 'react-icons/pi';
 import './left-nav.css';
 function LeftNav(props) {
 	const urlInfo = useLocation();
@@ -30,6 +31,18 @@ function LeftNav(props) {
 			</li>
 			<SubscriptionList />
 			<li className={styles.library}>
+				<NavLink to="/channel" className={styles.link}>
+					<span className={styles.logo}>
+						{urlInfo.pathname === '/channel' ? (
+							<PiTelevisionSimpleFill />
+						) : (
+							<PiTelevisionSimple />
+						)}
+					</span>
+					<span>Channel</span>
+				</NavLink>
+			</li>
+			<li className={styles.library}>
 				<NavLink to="/library" className={styles.link}>
 					<span className={styles.logo}>
 						{urlInfo.pathname === '/library' ? (
@@ -44,7 +57,7 @@ function LeftNav(props) {
 			<li className={styles.settings}>
 				<NavLink to="/settings" className={styles.link}>
 					<span className={styles.logo}>
-						{urlInfo.pathname === '/settings' ? (
+						{urlInfo.pathname.startsWith('/settings') ? (
 							<IoIcons.IoSettingsSharp />
 						) : (
 							<IoIcons.IoSettingsOutline />

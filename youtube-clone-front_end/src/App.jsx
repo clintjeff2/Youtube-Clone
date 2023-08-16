@@ -6,6 +6,8 @@ import SubscriptionSection from './components/Subscription/SubscriptionSection';
 import Home from './components/Home/Home';
 import WatchVideo from './pages/WatchVideo';
 import Settings from './components/settings/Settings';
+import Channel from './components/channel/Channel';
+import CreateChannel from './components/settings/CreateChannel';
 // import AvailVideoList from './components/AvailVideoList';
 function App() {
 	return (
@@ -17,7 +19,10 @@ function App() {
 						{/* <Route path="/:id" element={<AvailVideoList />} /> */}
 						<Route path="library" element={<LibrarySection />} />
 						<Route path="subscription/:id" element={<SubscriptionSection />} />
-						<Route path="settings" element={<Settings />} />
+						<Route path="channel" element={<Channel />} />
+						<Route path="settings" element={<Settings />}>
+							<Route path="create-channel" element={<CreateChannel />} />
+						</Route>
 					</Route>
 					<Route path="/watch" element={<WatchVideo />} />
 				</Routes>

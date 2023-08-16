@@ -1,10 +1,10 @@
 import React from 'react';
 import styles from './header.module.css';
-import { BsList } from 'react-icons/bs';
 import Logo from './Header/Logo';
 import SearchBar from './Header/SearchBar';
 import Notification from './Header/Notification';
 import Profile from './Header/Profile';
+import Register from './Header/Register';
 
 function Header(props) {
 	return (
@@ -15,6 +15,7 @@ function Header(props) {
 				<SearchBar className={styles.searchBar} />
 				<Notification />
 				<Profile />
+				<Register />
 			</nav>
 		</div>
 	);

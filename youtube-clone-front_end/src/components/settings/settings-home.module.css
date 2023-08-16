@@ -1,0 +1,32 @@
+.account,
+.channel,
+.accountDetails,
+.log {
+	border-bottom: 0.5px solid #808080a1;
+	padding: 0 1rem 3rem 1rem;
+}
+.account h2 {
+	margin-top: 5rem;
+}
+
+.channel {
+	margin-top: 3rem;
+}
+.whoami,
+.text {
+	color: grey;
+}
+.channelInfo {
+	display: flex;
+	gap: 10rem;
+	align-items: center;
+}
+
+.accountDetails {
+	display: flex;
+	gap: 10rem;
+	align-items: center;
+}
+.log {
+	margin-top: 2rem;
+}
