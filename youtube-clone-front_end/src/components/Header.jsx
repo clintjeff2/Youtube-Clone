@@ -4,7 +4,7 @@ import Logo from './Header/Logo';
 import SearchBar from './Header/SearchBar';
 import Notification from './Header/Notification';
 import Profile from './Header/Profile';
-import Register from './Header/Register';
+import Register from './Header/Auth';
 
 function Header(props) {
 	return (

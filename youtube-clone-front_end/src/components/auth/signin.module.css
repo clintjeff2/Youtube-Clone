@@ -1,0 +1,35 @@
+.signin {
+	background-color: white;
+	box-shadow: 0.2rem 0.1rem 0.5rem #1b1b1b;
+	border-radius: 0.7rem;
+	padding: 2rem 4rem 4rem 4rem;
+	font-weight: bold;
+	width: 50%;
+	margin: 4rem auto;
+}
+
+.signin form {
+	display: flex;
+	flex-direction: column;
+	gap: 3rem;
+}
+.signin form div {
+	display: flex;
+	/* border: 1px solid blue; */
+	align-items: center;
+}
+.signin form div:first-child {
+	margin-top: 4rem;
+}
+.signin form div label {
+	width: 15rem;
+}
+.signin form div input {
+	flex: 1;
+	padding: 1.5rem;
+	border: 1px solid grey;
+	border-radius: 0.3rem;
+}
+.signin form div input:focus {
+	outline: 1.5px solid #ca0303;
+}

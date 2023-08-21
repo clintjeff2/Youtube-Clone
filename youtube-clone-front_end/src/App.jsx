@@ -8,6 +8,8 @@ import WatchVideo from './pages/WatchVideo';
 import Settings from './components/settings/Settings';
 import Channel from './components/channel/Channel';
 import CreateChannel from './components/settings/CreateChannel';
+import Signup from './components/auth/Signup';
+import Signin from './components/auth/Signin';
 // import AvailVideoList from './components/AvailVideoList';
 function App() {
 	return (
@@ -16,7 +18,8 @@ function App() {
 				<Routes>
 					<Route path="/" element={<Landing />}>
 						<Route path="" index element={<Home />} />
-						{/* <Route path="/:id" element={<AvailVideoList />} /> */}
+						<Route path="signup" element={<Signup />} />
+						<Route path="signin" element={<Signin />} />
 						<Route path="library" element={<LibrarySection />} />
 						<Route path="subscription/:id" element={<SubscriptionSection />} />
 						<Route path="channel" element={<Channel />} />

@@ -1,4 +1,4 @@
-.register {
+button {
 	padding: 1rem 2rem;
 	margin-right: 0.5rem;
 	border: 2px solid #ca0303;
@@ -6,5 +6,4 @@
 	border-radius: 0.3rem;
 	background-color: #ffffff;
 	font-size: 2rem;
-	text-transform: capitalize;
 }
